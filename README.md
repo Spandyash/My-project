@@ -1,4 +1,4 @@
 # My-project
 <br>
-my fiest project (spandana)
+my tic-tac-toe  game project 
 
