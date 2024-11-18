@@ -3,24 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz-App</title>
+    <title>tic tac toe</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="app">
-        <h1>Interactive Quiz</h1>
-        <div id="quiz">
-            <h2 id="question">Question goes here</h2>
-            <div id="answer-buttons">
-                <button class="btn">Answer1</button>
-                <button class="btn">Answer2</button>
-                <button class="btn">Answer3</button>
-                <button class="btn">Answer4</button>
-            </div>
-            <button id="next-btn">Next</button>
-        </div>
+    <h2>Tic-Tac-Toe</h2>
+    <div class="turn-container">
+        <h3>Turn for</h3>
+        <div class="turn-box align">X</div>
+        <div class="turn-box align">O</div>
+        <div class="bg"></div>
     </div>
-       
+    <div class="main-grid">
+        <div class="box align"></div>
+        <div class="box align"></div>
+        <div class="box align"></div>
+        <div class="box align"></div>
+        <div class="box align"></div>
+        <div class="box align"></div>
+        <div class="box align"></div>
+        <div class="box align"></div>
+        <div class="box align"></div>
+    </div>
+    <h2 id="results"></h2>
+    <button id="play-again">Reset</button>
+
     <script src="script.js"></script>
 </body>
 </html>
